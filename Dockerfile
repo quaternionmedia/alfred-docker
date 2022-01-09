@@ -8,9 +8,12 @@ RUN apt install -y libjpeg-dev libcairo2 libcairo-dev
 RUN pip3 install -U pip
 RUN pip3 install --pre moviepy
 
-COPY requirements.txt /requirements.txt
+COPY otto-requirements.txt /otto-requirements.txt
+COPY alfred-requirements.txt /alfred-requirements.txt
 
-RUN pip3 install -Ur /requirements.txt
+RUN pip3 install -Ur /otto-requirements.txt
+RUN pip3 install -Ur /alfred-requirements.txt
+
 
 WORKDIR /app
 
