@@ -1,8 +1,7 @@
-FastAPI
-aiofiles
-moviepy
-gizeh
-ffmpeg-python
-numpy
-pydantic
-bezier
+FastAPI<0.72.0
+aiofiles<0.9.0
+moviepy==v2.0.0.dev2
+gizeh<1.2.0
+numpy<1.23.0
+pydantic<1.10.0
+bezier<2121.3.0
