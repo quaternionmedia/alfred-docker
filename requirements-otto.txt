@@ -1,7 +1,7 @@
-FastAPI<0.72.0
-aiofiles<0.9.0
+FastAPI >= 0.81.0, < 0.82.0
+aiofiles >=0.8.0, < 0.9.0
 moviepy==v2.0.0.dev2
-gizeh<1.2.0
-numpy<1.23.0
-pydantic<1.10.0
-bezier<2121.3.0
+gizeh >= 0.1.11, < 0.2.0
+numpy >= 1.23.2, < 1.24.0
+pydantic >= 1.10.1, < 1.11.0
+bezier >= 2021.2.12, < 2021.3.0
