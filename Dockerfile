@@ -14,7 +14,7 @@ RUN pip3 install --pre moviepy
 COPY requirements-otto.txt /
 COPY requirements-alfred.txt /
 
-RUN pip3 install -Ur /requirements-otto.txt
+RUN BEZIER_NO_EXTENSION=true pip3 install -Ur /requirements-otto.txt --no-binary=bezier
 RUN pip3 install -Ur /requirements-alfred.txt
 
 
